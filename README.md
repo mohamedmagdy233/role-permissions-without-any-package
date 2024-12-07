@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40malik96sharfo%2Fpermissions-in-your-laravel-api-117aabe8ae2b&psig=AOvVaw0wBvm5rbqyNjoMY4bW9Nj2&ust=1733662782175000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDTgOrblYoDFQAAAAAdAAAAABAE" alt="TUBE" width="300" height="300">
+<img align="center" src="https://miro.medium.com/v2/resize:fit:700/0*myazq11Ldd1mPuJM.png" alt="TUBE" width="300" height="300">
 </p>
 
 <div align="center">
