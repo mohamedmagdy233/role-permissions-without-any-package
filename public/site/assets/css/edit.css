@@ -1,0 +1,336 @@
+.color-primary{
+    color: #183e6f !important;
+}
+.header .navbar .navbar-nav > li.drop-edit.active > .dropdown-toggle::after{
+    display: none;
+}
+
+.header .navbar .navbar-nav > li.drop-edit > .dropdown-toggle::after{
+    display: none;
+}
+/* .about .bg-section img{
+    object-fit: contain;
+} */
+
+.card-newest{
+    border: none;
+    box-shadow: 0 0 10px gainsboro;
+    margin-bottom: 30px;
+    /* height: 450px; */
+}
+.image-card{
+    height: 270px;
+    overflow: hidden;
+}
+.card-newest .card-img-top{
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+.card-newest:hover .card-img-top{
+    transform: scale(1.1);
+}
+.card-body .card-title{
+    transition: all 0.5s ease;
+}
+.card-body a:hover .card-title{
+    color: #183e6f;
+}
+.card-newest .card-body{
+    position: relative;
+    transition: all 0.5 ease;
+}
+.card-newest .card-date1{
+    background-color: #183e6f;
+    color: white;
+    font-size: 14px;
+    height: 35px;
+    /* width: 130px; */
+    padding: 0 20px;
+    position: absolute;
+    left: 7px;
+    top: -40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-newest .card-date1 p{
+    margin-bottom: 0;
+    color: white;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #183e6f;
+}
+.card-newest .card-text span{
+    color: #183e6f;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* end section newest */
+
+.btn-book{
+    width: 100% !important;
+    background-color: #e4e6e8;
+    color: #77797e;
+    display: flex;
+    justify-content: center;
+}
+
+/* section app */
+.section-app{
+    background-image: url(../images/sliders/bg-app.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    padding-top: 120px;
+}
+.btn--app{
+    padding: 20px 30px;
+    background-color: #e4e6e8;
+    color: #77797e;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+.btn--app--change{
+    background-color: #183e6f;
+    color: white;
+}
+.btn--app:hover{
+    background-color: #77797e;
+    color: white;
+}
+
+.tabs-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    /* border-bottom: 1px solid #bbb; */
+}
+.tabs-list li{
+    padding: 5px 15px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    top: 1px;
+}
+@media (max-width: 466px){
+    .tabs-list li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.tabs-list li:hover{
+    color: #183e6f;
+}
+.tabs-list .show{
+    color: #183e6f;
+    border-bottom: 2px solid #183e6f;
+}
+.content-list > div:not(:first-child){
+    display: none;
+}
+.form-date{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    color: #9b9b9b;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    background-color: white;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+/* details fleet */
+.link-category{
+    padding-left: 0;
+}
+.link-category li a{
+    color: black;
+    margin-bottom: 10px;
+}
+.link-category li:hover a{
+    color: var(--main-color);
+}
+.price-input{
+    width: 100%;
+    display: flex;
+}
+.price-input input{
+    width: 20%;
+    height: 30px;
+    outline: none;
+    margin-left: 12px;
+    margin-right: 10px;
+    border: 1px solid gainsboro;
+    /* border: none; */
+    text-align: center;
+    -moz-appearance: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.price-input .separator{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.slider-price{
+    margin-top: 15px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #ddd;
+    position: relative;
+}
+.slider-price .progress{
+    height: 5px;
+    background-color: #183e6f;
+    border-radius: 5px;
+    position: absolute;
+    left: 10.5%;
+    right: 40.5%;
+}
+.range-input{
+    display: flex;
+    position: relative;
+}
+.range-input input{
+    position: absolute;
+    top: -5px;
+    height: 5px;
+    width: 100%;
+    background-color: transparent;
+    pointer-events: none;
+    -webkit-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+/* register & login */
+.area-login,
+.area-account{
+    width: 500px;
+    min-height: 600px;
+    background-color: white;
+    padding: 20px 40px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+}
+.form-register label,
+.form-login label{
+    color: gray;
+}
+.login .container,
+.register .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-login input{
+    padding: 15px;
+    border: 1px solid gainsboro;
+}
+.area-account input,
+.area-forget input{
+    padding: 10px;
+    border: 1px solid gainsboro;
+}
+.area-login input:focus,
+.area-account input:focus,
+.area-forget input:focus{
+    border: 1px solid #183e6f;
+    outline: none;
+}
+.area-login .forget{
+    color: gray;
+}
+.form-check{
+    padding-left: 10px;
+}
+.area-login a,
+.area-account a{
+    color: black;
+}
+.area-login a:hover,
+.area-account a:hover{
+    color: #183e6f;
+}
+.form-check-input:checked{
+    border: none;
+    outline: none;
+}
+.policy{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+.policy:hover{
+    color: #183e6f;
+}
+
+@media screen and (max-width: 768px) {
+    .section-app img{
+      height: 220px !important;
+    }
+  }
+  /* account */
+  table tr.active{
+    background-color: #183e6f;
+    color: white;
+}
+table tr{
+    cursor: pointer;
+}
+.icon-account{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-view{
+    width: 70px;
+    height: 35px;
+    border: none;
+    background-color: #183e6f;
+    color: white;
+}
+.btn-view:hover{
+    background-color: black;
+}
+.billing div,
+.billing button{
+    margin-left: 20px;
+}
+.billing div{
+    color: gray;
+}
+.account-details span{
+    color: #183e6f;
+}
+.account-details .account{
+    border: 1px solid gainsboro;
+}
+.account-details .account:focus{
+    border: 1px solid #183e6f;
+    outline: none;
+}
