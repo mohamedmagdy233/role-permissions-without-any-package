@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="https://miro.medium.com/v2/resize:fit:700/0*myazq11Ldd1mPuJM.png" alt="TUBE" width="300" height="300">
+<img align="center" src="https://miro.medium.com/v2/resize:fit:700/0*myazq11Ldd1mPuJM.png" alt="TUBE" width="900" height="900">
 </p>
 
 <div align="center">
